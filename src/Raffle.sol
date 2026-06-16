@@ -104,7 +104,7 @@ contract Raffle is VRFConsumerBaseV2Plus {
      * 3. The contract has ETH (has players)
      * 4. Implicitly, your subscription has LINK
      * @param - ignored
-     * @return upkeepNeeded - true is it's time to restart the lottery
+     * @return upkeepNeeded - true if it's time to restart the lottery
      * @return - ignored
      */
     function checkUpkeep(
