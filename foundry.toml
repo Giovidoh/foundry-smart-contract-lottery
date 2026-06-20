@@ -8,4 +8,11 @@ fs_permissions = [
     { access = "read", path = "./reports" },
 ]
 
+[fuzz]
+# The number of test cases that must execute for each property test
+# Default: 256
+runs = 256
+
+
+
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
